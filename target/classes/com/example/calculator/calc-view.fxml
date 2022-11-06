@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="534.0" style="-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #e3ffe7, #d9e7ff);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.CalculatorController">
+   <children>
+      <JFXButton fx:id="num1" buttonType="RAISED" layoutX="26.0" layoutY="149.0" onAction="#num1Pressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #19cf8f;" text="1">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="num2" buttonType="RAISED" layoutX="97.0" layoutY="149.0" onAction="#num2Pressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #19cf8f;" text="2">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="num3" buttonType="RAISED" layoutX="168.0" layoutY="149.0" onAction="#num3Pressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #19cf8f;" text="3">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="num4" buttonType="RAISED" layoutX="26.0" layoutY="220.0" onAction="#num4Pressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #19cf8f;" text="4">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="num5" buttonType="RAISED" layoutX="97.0" layoutY="220.0" onAction="#num5Pressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #19cf8f;" text="5">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="num6" buttonType="RAISED" layoutX="168.0" layoutY="220.0" onAction="#num6Pressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #19cf8f;" text="6">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="num7" buttonType="RAISED" layoutX="26.0" layoutY="292.0" onAction="#num7Pressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #19cf8f;" text="7">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="num8" buttonType="RAISED" layoutX="97.0" layoutY="292.0" onAction="#num8Pressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #19cf8f;" text="8">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="num9" buttonType="RAISED" layoutX="168.0" layoutY="292.0" onAction="#num9Pressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #19cf8f;" text="9">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="num0" buttonType="RAISED" layoutX="26.0" layoutY="362.0" onAction="#num0Pressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #19cf8f;" text="0">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnC" buttonType="RAISED" layoutX="97.0" layoutY="362.0" onAction="#btnCPressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #ff6a21;" text="AC">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnRemainder" buttonType="RAISED" layoutX="168.0" layoutY="362.0" onAction="#btnRemainderPressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #8000ff;" text="\%" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnPlus" buttonType="RAISED" layoutX="238.0" layoutY="149.0" onAction="#btnPlusPressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #8000ff;" text="+" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnMinus" buttonType="RAISED" layoutX="238.0" layoutY="220.0" onAction="#btnMinusPressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #8000ff;" text="-" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnDivide" buttonType="RAISED" layoutX="238.0" layoutY="292.0" onAction="#btnDividePressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #8000ff;" text="/" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnMult" buttonType="RAISED" layoutX="238.0" layoutY="362.0" onAction="#btnMultPressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #8000ff;" text="x" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnSin" buttonType="RAISED" layoutX="309.0" layoutY="149.0" onAction="#btnSinPressed" prefHeight="63.0" prefWidth="90.0" style="-fx-background-color: #a832a6;" text="sin" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnCos" buttonType="RAISED" layoutX="309.0" layoutY="220.0" onAction="#btnCosPressed" prefHeight="63.0" prefWidth="90.0" style="-fx-background-color: #a832a6;" text="cos" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnTan" buttonType="RAISED" layoutX="309.0" layoutY="292.0" onAction="#btnTanPressed" prefHeight="63.0" prefWidth="90.0" style="-fx-background-color: #a832a6;" text="tan" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnSinI" buttonType="RAISED" layoutX="407.0" layoutY="149.0" onAction="#btnSinIPressed" prefHeight="63.0" prefWidth="100.0" style="-fx-background-color: #ff003c;" text="sin-1" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnCosI" buttonType="RAISED" layoutX="407.0" layoutY="220.0" onAction="#btnCosIPressed" prefHeight="63.0" prefWidth="100.0" style="-fx-background-color: #ff003c;" text="cos-1" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnCoTan" buttonType="RAISED" layoutX="407.0" layoutY="292.0" onAction="#btnCoTanPressed" prefHeight="63.0" prefWidth="100.0" style="-fx-background-color: #ff003c;" text="cot" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnBOPen" buttonType="RAISED" layoutX="309.0" layoutY="362.0" onAction="#btnBOpenPressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #00b049;" text="(">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnBClosed" buttonType="RAISED" layoutX="377.0" layoutY="362.0" onAction="#btnBClosedPressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #00b049;" text=")">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnEqual" buttonType="RAISED" layoutX="444.0" layoutY="362.0" onAction="#btnEqualPressed" prefHeight="63.0" prefWidth="63.0" style="-fx-background-color: #ff000d;" text="=" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="lblExpression" alignment="CENTER_RIGHT" layoutX="26.0" layoutY="27.0" prefHeight="107.0" prefWidth="408.0" style="-fx-background-color: #eaa6ff; -fx-padding: 10; -fx-border-insets: 20;" textAlignment="RIGHT">
+         <font>
+            <Font name="Arial" size="38.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnDelete" buttonType="RAISED" layoutX="443.0" layoutY="27.0" onAction="#btnDeletePressed" prefHeight="107.0" prefWidth="63.0" style="-fx-background-color: #820029;" text="DEL" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </JFXButton>
+   </children>
+</Pane>
